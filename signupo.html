@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create your account</h2>
+        <!-- Display error messages here -->
+       
+
+        <form action="owners.php" method="POST">
+            <label for="username">Ownername:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <button type="submit" name="submit">Continue</button>
+            <div class="ulp-alternate-action  _alternate-action ">
+            
+          
+            <p class="c125cb2bc cb45f2853 cfc8e4696">Already have an account?
+              <a class="c7f55554e c2a60f02f" href="owner-login.html" aria-label="">Log in</a>
+            </p>
+          
+            
+          </div>
+        </form>
+    </div>
+</body>
+</html>

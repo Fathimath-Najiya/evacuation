@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: orange; /* Set background color to orange */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white; /* Set text color to white */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Set background color with opacity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow for depth */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="comfirm password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff; /* Blue button background color */
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: #007bff; /* Darker blue on hover */
+}
